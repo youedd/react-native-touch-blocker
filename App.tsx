@@ -6,7 +6,7 @@ export default function App() {
   const [touchEnabled, setTouchEnabled] = React.useState(true);
   const [background, setBackground] = React.useState("#FFFFFF");
   return (
-    <View style={{ ...Styles.container, backgroundColor: background }}>
+    <View style={[Styles.container, { backgroundColor: background }]}>
       <Button
         title={touchEnabled ? "Disable Touch" : "Enable Touch"}
         onPress={() => {
@@ -31,6 +31,7 @@ const randomColor = () =>
 const Styles = StyleSheet.create({
   container: {
     flex: 1,
+    height: "100%",
     justifyContent: "center",
   },
 });
