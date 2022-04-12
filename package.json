@@ -1,4 +1,5 @@
 {
+  "version": "1.0.2",
   "name": "react-native-touch-blocker",
   "description": "TouchBolocker is a React Native and React Native Web component that helps blocking the user from interacting with children components.",
   "repository": "https://github.com/youedd/react-native-touch-blocker",
@@ -16,7 +17,7 @@
     "typescirpt",
     "touchable"
   ],
-  "version": "1.0.1",
+  "license": "MIT",
   "source": "src/index.ts",
   "react-native": "src/index.ts",
   "main": "lib/commonjs/index.js",
