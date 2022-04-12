@@ -17,8 +17,8 @@ exports[`TouchBlocker Component unit tests : Should render children  1`] = `
 >
   <View
     accessibilityRole="button"
-    accessibilityState={Object {}}
     accessible={true}
+    collapsable={false}
     focusable={true}
     onClick={[Function]}
     onResponderGrant={[Function]}
@@ -63,8 +63,8 @@ exports[`TouchBlocker Component unit tests : Shouldn't add panHandlers to Root v
 <View>
   <View
     accessibilityRole="button"
-    accessibilityState={Object {}}
     accessible={true}
+    collapsable={false}
     focusable={true}
     onClick={[Function]}
     onResponderGrant={[Function]}
