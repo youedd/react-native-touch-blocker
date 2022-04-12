@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":["default"],"mappings":"AAAA,cAAc,gBAAd;AACA,SAASA,OAAT,QAAwB,gBAAxB","sourcesContent":["export * from './TouchBlocker'\nexport { default } from './TouchBlocker'\n"]}

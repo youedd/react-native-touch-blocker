@@ -1,16 +1,22 @@
 {
   "name": "react-native-touch-blocker",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "source": "src/index.ts",
+  "react-native": "src/index.ts",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
+    "build:lib": "bob build",
     "lint:fix": "ts-standard --fix",
     "lint": "tsc  --noEmit && ts-standard",
-    "test": "yarn lint && jest"
+    "test": "yarn lint && jest",
+    "prepare": "bob build"
   },
   "dependencies": {
     "expo": "~44.0.0",
@@ -33,5 +39,30 @@
     "react-test-renderer": "17.0.1",
     "typescript": "~4.3.5"
   },
-  "private": true
+  "private": true,
+  "files": [
+    "src",
+    "lib",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ]
 }
