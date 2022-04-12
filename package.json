@@ -41,7 +41,6 @@
     "ts-standard": "^11.0.0",
     "typescript": "~4.3.5"
   },
-  "private": true,
   "files": [
     "src",
     "lib",
