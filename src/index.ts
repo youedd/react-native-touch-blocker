@@ -1,2 +1,2 @@
-export * from "./TouchBlocker";
-export { default } from "./TouchBlocker";
+export * from './TouchBlocker'
+export { default } from './TouchBlocker'
