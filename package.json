@@ -1,6 +1,22 @@
 {
   "name": "react-native-touch-blocker",
-  "version": "1.0.0",
+  "description": "TouchBolocker is a React Native and React Native Web component that helps blocking the user from interacting with children components.",
+  "repository": "https://github.com/youedd/react-native-touch-blocker",
+  "homepage": "https://github.com/youedd/react-native-touch-blocker",
+  "author": "Youssef EDDIBILI",
+  "keywords": [
+    "events",
+    "block",
+    "react-native",
+    "touch",
+    "gesture",
+    "interaction",
+    "gestures",
+    "react-native-web",
+    "typescirpt",
+    "touchable"
+  ],
+  "version": "1.0.1",
   "source": "src/index.ts",
   "react-native": "src/index.ts",
   "main": "lib/commonjs/index.js",
