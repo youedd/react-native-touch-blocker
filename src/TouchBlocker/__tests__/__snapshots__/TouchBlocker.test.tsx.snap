@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TouchBlocker Component unit tests : Should render children  1`] = `
+<View
+  onMoveShouldSetResponder={[Function]}
+  onMoveShouldSetResponderCapture={[Function]}
+  onResponderEnd={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderReject={[Function]}
+  onResponderRelease={[Function]}
+  onResponderStart={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  onStartShouldSetResponderCapture={[Function]}
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        button
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TouchBlocker Component unit tests : Shouldn't add panHandlers to Root view when enableTouchEvents prop is true 1`] = `
+<View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        button
+      </Text>
+    </View>
+  </View>
+</View>
+`;
