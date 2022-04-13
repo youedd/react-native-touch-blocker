@@ -6,7 +6,7 @@
 [![License](https://badgen.net/github/license/youedd/react-native-touch-blocker)](https://github.com/youedd/react-native-touch-blocker/blob/main/LICENSE)
 [![TS-Standard - Typescript Standard Style Guide](https://badgen.net/badge/code%20style/ts-standard/blue?icon=typescript)](https://github.com/standard/ts-standard)
 
-TouchBolocker is a React Native and React Native Web component that helps blocking the user from interacting with children components.
+TouchBlocker is a React Native and React Native Web component that helps blocking the user from interacting with children components.
 
 ## Install
 
