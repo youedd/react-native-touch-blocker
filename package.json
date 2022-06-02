@@ -22,7 +22,7 @@
   "react-native": "src/index.ts",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
-  "types": "lib/typescript/src/index.d.ts",
+  "types": "lib/typescript/index.d.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
